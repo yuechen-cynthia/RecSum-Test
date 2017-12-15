@@ -8,9 +8,11 @@ To run this program:
 2. Run 'dotnet run [command] [filepath] [numbers]'
 
 Command options:
+
                 record
                 summary
                 help
+                
 Note:
                 Numbers should be double type.
                 If any invalid command or options is typed, help message will be printed.
