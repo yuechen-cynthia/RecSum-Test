@@ -29,7 +29,7 @@ namespace RecSum
                     case ValidCommand.summary:
                         //If file exists, calculate and print summary.
                         if (File.Exists(args[1])){
-                            SumNums(args[1]);
+                            SumNums(args[1],msg);
                         } else {
                             PrintHelp(msg);
                         }
@@ -109,28 +109,38 @@ namespace RecSum
         /*
          * Read numbers from the text file and calculate summary (#, min, max, avg).
          */
-        static void SumNums(string path)
+        static void SumNums(string path, string[] msg)
         {
             string line;
             double sum = 0;
             int size = 0;
             double min = Double.MaxValue;
             double max = Double.MinValue;
-
+            bool isValidFile = true;
             using (StreamReader sr = File.OpenText(path))
             {
                 while ((line = sr.ReadLine()) != null)
                 {
+                    //If read value is valid, calculate the summary.
                     if (Double.TryParse(line, out double num))
                     {
                         sum += num;
                         size++;
                         min = min > num ? num : min;
                         max = max < num ? num : max;
+                    } else{
+                        isValidFile = false;
+                        break;
                     }
                 }
             }
-            PrintSummary(size, max, min, sum / size);
+            if (isValidFile){
+                PrintSummary(size, max, min, sum / size);
+            } else {
+                //If read value is invalid, print help message.
+                PrintHelp(msg);
+            }
+            
         }
 
         /*
