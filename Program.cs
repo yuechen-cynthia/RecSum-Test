@@ -51,7 +51,7 @@ namespace RecSum
             msg.Add("This program is a console application based on .Net.");
             msg.Add("");
             msg.Add("To run this program:");
-            msg.Add(@"1. Navigate to the program directory and run 'dotnet restore.'");
+            msg.Add(@"1. Navigate to the program directory and run 'dotnet restore'.");
             msg.Add(@"2. Run 'dotnet run [command] [filepath] [numbers]'");
             msg.Add("");
             msg.Add("Command options: \n\t\trecord \n\t\tsummary \n\t\thelp");
