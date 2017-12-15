@@ -1,0 +1,10 @@
+/Users/cynthia/Projects/RecSum/bin/Debug/netcoreapp2.0/RecSum.deps.json
+/Users/cynthia/Projects/RecSum/bin/Debug/netcoreapp2.0/RecSum.runtimeconfig.json
+/Users/cynthia/Projects/RecSum/bin/Debug/netcoreapp2.0/RecSum.runtimeconfig.dev.json
+/Users/cynthia/Projects/RecSum/bin/Debug/netcoreapp2.0/RecSum.dll
+/Users/cynthia/Projects/RecSum/bin/Debug/netcoreapp2.0/RecSum.pdb
+/Users/cynthia/Projects/RecSum/obj/Debug/netcoreapp2.0/RecSum.csproj.CoreCompileInputs.cache
+/Users/cynthia/Projects/RecSum/obj/Debug/netcoreapp2.0/RecSum.AssemblyInfoInputs.cache
+/Users/cynthia/Projects/RecSum/obj/Debug/netcoreapp2.0/RecSum.AssemblyInfo.cs
+/Users/cynthia/Projects/RecSum/obj/Debug/netcoreapp2.0/RecSum.dll
+/Users/cynthia/Projects/RecSum/obj/Debug/netcoreapp2.0/RecSum.pdb

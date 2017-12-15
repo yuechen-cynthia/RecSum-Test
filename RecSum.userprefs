@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{8B4ACE30-9A1A-4A87-9AB1-570D7952BFBD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RecSum/Program.cs">
+    <Files>
+      <File FileName="RecSum/Program.cs" Line="11" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
